@@ -19,7 +19,6 @@ import org.junit.Assert.*
 
  * @see [Testing documentation](http://d.android.com/tools/testing)
  */
-
 @RunWith(AndroidJUnit4::class)
 class TestKotlin {
 
@@ -29,6 +28,6 @@ class TestKotlin {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
 
-        assertEquals("com.gilcu2.realmtestkotlin", appContext.packageName)
+        assertEquals("com.gilcu2.myapplication", appContext.packageName)
     }
 }
